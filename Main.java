@@ -30,6 +30,9 @@ public class Main {
         catch (Exception e){
          System.out.println("Unknown error"+e);
        }
+        finally {
+            System.out.println("finally block executed");
+        }
 
 
         
